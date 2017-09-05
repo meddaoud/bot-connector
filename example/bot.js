@@ -6,7 +6,7 @@ const app = express()
 app.set('port', process.env.PORT || 5000)
 app.use(bodyParser.json())
 
-const config = { url: 'http://localhost:8080', botId: 'yourBotId' }
+const config = { url: 'http://localhost:8080', botId: 'meddaoud-talking-bot-fr' }
 
   /* Get the request from the connector */
 
